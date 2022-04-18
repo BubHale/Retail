@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(34,15): error C2079: 'custOne' uses undefined struct 'Customer'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(34,24): error C2079: 'custTwo' uses undefined struct 'Customer'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(34,33): error C2079: 'custThree' uses undefined struct 'Customer'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(38,68): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::vector<Customer,std::allocator<Customer>>'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(38,68): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(39,11): error C2079: 'itemOne' uses undefined struct 'Item'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(39,20): error C2079: 'itemTwo' uses undefined struct 'Item'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(39,29): error C2079: 'itemThree' uses undefined struct 'Item'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(49,64): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::vector<Item,std::allocator<Item>>'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(49,64): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(50,12): error C2079: 'Retail' uses undefined class 'Store'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(50,59): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\wizar\source\repos\Transaction\Transaction\Source.cpp(50,18): message : The initializer contains too many elements
